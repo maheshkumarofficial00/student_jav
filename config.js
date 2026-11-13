@@ -13,8 +13,8 @@
   const cfg = {
     APP_NAME: 'Smart Faculty and Resource Booking System',
     BRAND: 'Smart Faculty Booking',
-    API_BASE: 'http://localhost:8080/api',
-    USE_MOCK: true,
+    API_BASE: 'http://localhost:8081/api',
+    USE_MOCK: false,
     DAY_START: 8 * 60,   // timeline start (minutes from midnight)
     DAY_END: 20 * 60,    // timeline end
     SLOT_STEP: 30,       // minutes between suggested start times
